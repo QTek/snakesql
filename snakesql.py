@@ -157,7 +157,7 @@ column_count = len(query.get_columns())
 column_cycles_complete = 0
 x_true = 0
 output_results = list()
-output_filename = "output/" + query.get_filename()
+output_filename = "" + query.get_filename()
 
 result_dict = dict()
 while x_true < (len(result) - 1):
